@@ -7,7 +7,7 @@ export default function Hero() {
 
       {/* BACKGROUND IMAGE */}
       <Image
-        src="/hero.png"
+        src="/hero.webp"
         alt="Terrarium"
         fill
         priority

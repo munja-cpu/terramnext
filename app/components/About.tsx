@@ -42,7 +42,7 @@ export default function About() {
           {/* SLIKA */}
           <div className="overflow-hidden rounded-2xl">
             <Image
-              src="/aboutUs.png"
+              src="/aboutUs.webp"
               alt="Izrada terarijuma"
               width={600}
               height={500}

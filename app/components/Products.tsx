@@ -2,12 +2,12 @@ const products = [
   {
     id: 1,
     name: "Velaris Line",
-    image: "proizvodi/t2.jpg",
+    image: "proizvodi/t2.webp",
   },
   {
     id: 2,
     name: "Obsidian",
-    image: "proizvodi/t1.png",
+    image: "proizvodi/t1.webp",
   },
   {
     id: 3,
