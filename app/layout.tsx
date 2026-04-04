@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Terram",
     description: "Priroda u vašem prostoru",
-    url: "https://tvoj-sajt.vercel.app",
+    url: "https://terramnext.vercel.app",
     siteName: "Terram",
     images: [
       {
