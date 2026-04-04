@@ -39,7 +39,7 @@ export default function Contact() {
 };
 
   return (
-    <section className="py-16 px-6">
+    <section className="py-8 px-6">
       <section className="pt-8 pb-16 px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Kontakt
