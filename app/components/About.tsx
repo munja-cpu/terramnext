@@ -57,7 +57,7 @@ export default function About() {
           {/* STA RADIMO */}
           <div className="bg-white/5 p-6 rounded-2xl hover:bg-white/10 transition">
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Šta radimo
+              🛠️ Šta radimo
             </h3>
 
             <ul className="space-y-2 text-gray-400 text-l">
@@ -70,7 +70,7 @@ export default function About() {
           {/* KAKO RADIMO */}
           <div className="bg-white/5 p-6 rounded-2xl hover:bg-white/10 transition">
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Kako radimo
+              ✨ Kako radimo
             </h3>
 
             <ul className="space-y-2 text-gray-400 text-l">
@@ -83,7 +83,7 @@ export default function About() {
           {/* NAS CILJ */}
           <div className="bg-white/5 p-6 rounded-2xl hover:bg-white/10 transition">
             <h3 className="text-xl font-semibold mb-4 text-white">
-              Naš cilj
+              🎯 Naš cilj
             </h3>
 
             <p className="text-gray-400 text-l leading-relaxed">
