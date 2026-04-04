@@ -21,13 +21,6 @@ export const metadata = {
     description: "Priroda u vašem prostoru",
     url: "https://terramnext.vercel.app",
     siteName: "Terram",
-    images: [
-      {
-        url: "https://terramnext.vercel.app/hero.webp",
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: "sr_RS",
     type: "website",
   },
