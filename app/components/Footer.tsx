@@ -50,7 +50,7 @@ export default function Footer() {
   <h3 className="font-semibold mb-4">Zapratite nas</h3>
 
   <a
-    href="https://instagram.com/yourusername"
+    href="https://instagram.com/terramterram"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center justify-center bg-white/10 p-3 rounded-full hover:bg-white hover:text-black transition"
