@@ -55,28 +55,25 @@ export async function POST(req: Request) {
       to: email,
 
       subject: "Hvala na poruci 🌿",
+      text: `
+            Zdravo ${name},
 
+            Hvala vam što ste nas kontaktirali.
+            Vaša poruka je uspešno primljena i odgovorićemo vam u najkraćem roku. 
+
+            Terram tim🌿
+            `,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; text-align: center;">
 
-  <h2>Zdravo ${name},</h2>
-
-  <p>Hvala vam što ste nas kontaktirali.</p>
-
-  <p>Vaša poruka je uspešno primljena i odgovorićemo vam u najkraćem roku.</p>
-
-  <br/>
-
-  <p>Pozdrav,</p>
-  <p><strong>Terram tim 🌿</strong></p>
 
   <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;" />
 
   <img 
     src="https://terramnext.vercel.app/logo.png" 
     alt="Terram logo"
-    width="120"
-    style="opacity: 0.9;"
+    width="100"
+    style="margin-top: 10px; opacity: 0.9;"
   />
 
 </div>
