@@ -7,7 +7,7 @@ export default function Header() {
         <h1 className="font-bold text-xl">Terram</h1>
 
         <nav className="space-x-6">
-          <Link href="/">Home</Link>
+          <Link href="/">Početna</Link>
           <Link href="/products">Proizvodi</Link>
           <Link href="/contact">Kontakt</Link>
         </nav>
