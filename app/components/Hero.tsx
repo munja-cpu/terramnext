@@ -11,7 +11,7 @@ export default function Hero() {
         alt="Terrarium"
         fill
         priority
-        className="object-cover"
+        className="object-cover object-[70%_center] md:object-center"
       />
 
       {/* DARK OVERLAY */}
