@@ -60,7 +60,7 @@ export default function About() {
               Šta radimo
             </h3>
 
-            <ul className="space-y-3 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-400 text-l">
               <li>• Ručna izrada biljnih terarijuma</li>
               <li>• Gotovi modeli i izrada po meri</li>
               <li>• Opremanje domova i poslovnih prostora</li>
@@ -73,7 +73,7 @@ export default function About() {
               Kako radimo
             </h3>
 
-            <ul className="space-y-3 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-400 text-l">
               <li>• Fokus na kvalitet i detalje</li>
               <li>• Ekološki i dugotrajni materijali</li>
               <li>• Pažljivo pakovanje i dostava</li>
@@ -86,7 +86,7 @@ export default function About() {
               Naš cilj
             </h3>
 
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-400 text-l leading-relaxed">
               Naši terarijumi nisu samo dekoracija — oni su spoj prirode,
               dizajna i funkcionalnosti, idealni za moderne enterijere i ljude
               koji cene lepotu prirode.
