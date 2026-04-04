@@ -67,7 +67,7 @@ export default function Contact() {
 
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Vaš Email"
           value={form.email}
           onChange={(e) =>
             setForm({ ...form, email: e.target.value })
