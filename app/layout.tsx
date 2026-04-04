@@ -9,12 +9,20 @@ export const metadata = {
 
   openGraph: {
     title: "Terram",
-    description: "Priroda u vašem prostoru",
+    description: "Komadić prirode u vašem prostoru",
     url: "https://terramnext.vercel.app",
     siteName: "Terram",
     locale: "sr_RS",
     type: "website",
   },
+
+  images: [
+      {
+        url: "https://terramnext.vercel.app/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
 };
 
 const inter = Inter({
