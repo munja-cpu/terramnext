@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-black to-gray-900 text-white pt-20 pb-10 px-6">
+    <footer className="bg-linear-to-b from-black to-gray-900 text-white pt-20 pb-10 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-12">
 
         {/* LOGO + OPIS */}
