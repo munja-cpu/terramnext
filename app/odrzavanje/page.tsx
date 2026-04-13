@@ -97,7 +97,7 @@ Proces izrade započinjemo slojevitim postavljanjem podloge koja omogućava prav
 
 Dodajemo aktivni ugalj koji filtrira vodu i sprečava razvoj neprijatnih mirisa, dok suva mahovina pomaže u zadržavanju optimalne vlage. U pojedinim terarijumima koristimo i specijalizovane podloge poput aqua soil-a, koje dodatno doprinose stabilnosti i rastu biljaka.
 
-Kako bi ekosistem bio što prirodniji i dugotrajniji, u zatvorenim terarijumima često uvodimo i korisne mikroorganizme poput izopoda. Oni pomažu u razgradnji organskog materijala i održavaju unutrašnju ravnotežu bez potrebe za čestim intervencijama.
+Kako bi ekosistem bio što prirodniji i dugotrajniji, u zatvorenim terarijumima često uvodimo i korisne mikroorganizme poput izopoda. Oni pomažu u aeraciji zemlje, razgradnji organskog materijala i održavaju unutrašnju ravnotežu bez potrebe za čestim intervencijama.
 
 Zahvaljujući ovom pažljivo osmišljenom procesu, naši terarijumi ostaju zdravi, stabilni i laki za održavanje — pružajući vam dugotrajan komadić prirode u vašem prostoru.
 
