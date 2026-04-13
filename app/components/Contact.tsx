@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 export default function Contact() {
+  
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -39,8 +40,8 @@ export default function Contact() {
 };
 
   return (
-    <section className="py-8 px-6">
-      <section className="pt-8 pb-16 px-6 text-center">
+    <section className="py-8 px-6 bg-black text-white min-h-screen">
+      <section className="pt-8 pb-16 px-6 text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Kontakt
         </h1>
