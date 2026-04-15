@@ -31,7 +31,7 @@ const products = [
   {
     id: 4,
     name: "Obsidian Forest Mini",
-    image: "proizvodi/t3.jpg",
+    image: "proizvodi/t4.webp",
     desc: "Kompaktna verzija terarijuma idealna za manje prostore.",
     size: "30x20x20",
   },
