@@ -10,7 +10,7 @@ export default function Header() {
 
   const linkClass = (path: string) =>
     `text-lg py-2 border-b border-white/10 transition ${
-      pathname === path ? "text-green-400" : "text-white"
+      pathname === path ? "text-terramGreen" : "text-white"
     }`;
 
   return (
@@ -26,25 +26,25 @@ export default function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link
               href="/"
-              className={pathname === "/" ? "text-green-400" : ""}
+              className={pathname === "/" ? "text-terramGreen" : ""}
             >
               Početna
             </Link>
             <Link
               href="/products"
-              className={pathname === "/products" ? "text-green-400" : ""}
+              className={pathname === "/products" ? "text-terramGreen" : ""}
             >
               Proizvodi
             </Link>
             <Link
               href="/odrzavanje"
-              className={pathname === "/odrzavanje" ? "text-green-400" : ""}
+              className={pathname === "/odrzavanje" ? "text-terramGreen" : ""}
             >
               Održavanje
             </Link>
             <Link
               href="/contact"
-              className={pathname === "/contact" ? "text-green-400" : ""}
+              className={pathname === "/contact" ? "text-terramGreen" : ""}
             >
               Kontakt
             </Link>
