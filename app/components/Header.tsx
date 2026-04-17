@@ -21,10 +21,9 @@ export default function Header() {
         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
           {/* LOGO */}
-
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo-v1.png"
+              src="/logo-v1.webp"
               alt="Terram logo"
               width={200}
               height={50}
@@ -32,7 +31,6 @@ export default function Header() {
               priority
             />
           </Link>
-
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex space-x-6">
