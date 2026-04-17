@@ -1,9 +1,13 @@
 "use client";
-
+import Link from "next/link";
 import { useState } from "react";
+
+
+
 type Product = {
   id: number;
   name: string;
+  slug: string;
   image: string;
   desc: string;
   size?: string;
@@ -13,32 +17,36 @@ const products = [
   {
     id: 1,
     name: "Velaris Line",
+    slug: "velaris-line",
     image: "proizvodi/t2.webp",
-    desc: "Ručno izrađen terarijum sa pažljivo biranim biljkama i prirodnim slojevima za dugotrajnost.",
+    desc: "Ručno izrađen terarijum...",
   },
   {
     id: 2,
     name: "Obsidian",
+    slug: "obsidian",
     image: "proizvodi/t1.webp",
-    desc: "Moderan terarijum minimalističkog dizajna koji se lako uklapa u svaki enterijer.",
+    desc: "Moderan terarijum...",
   },
   {
     id: 3,
     name: "Obsidian Forest",
+    slug: "obsidian-forest",
     image: "proizvodi/t3.jpg",
-    desc: "Kombinacija prirodnih elemenata i biljaka koja stvara mali zatvoreni ekosistem.",
+    desc: "Kombinacija prirodnih elemenata...",
   },
   {
     id: 4,
     name: "Obsidian Forest Mini",
+    slug: "obsidian-forest-mini",
     image: "proizvodi/t4.webp",
-    desc: "Kompaktna verzija terarijuma idealna za manje prostore.",
+    desc: "Kompaktna verzija...",
     size: "30x20x20",
   },
 ];
 
 export default function Products() {
-  const [selected, setSelected] = useState<Product | null>(null);
+  
 
   return (
     <section className="py-20 px-6 max-w-6xl mx-auto">
@@ -48,10 +56,12 @@ export default function Products() {
 
       <div className="grid md:grid-cols-3 gap-8">
         {products.map((item) => (
-          <div
+
+          <Link
             key={item.id}
-            className="group cursor-pointer"
-            onClick={() => setSelected(item)}
+            href={`/products/${item.slug}`}
+            target="_blank"
+            className="group cursor-pointer block"
           >
             <div className="overflow-hidden rounded-2xl">
               <img
@@ -64,49 +74,12 @@ export default function Products() {
             <h3 className="mt-4 text-lg font-semibold">
               {item.name}
             </h3>
-          </div>
+          </Link>
         ))}
       </div>
 
       {/* 🔥 MODAL */}
-      {selected && (
-        <div
-          className="fixed inset-0 bg-black/80 backdrop-blur flex items-center justify-center z-50 px-4"
-          onClick={() => setSelected(null)}
-        >
-          <div
-            className="bg-black text-white p-6 rounded-2xl max-w-md w-full"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <img
-              src={selected.image}
-              alt={selected.name}
-              className="rounded-xl mb-4 w-full h-60 object-cover"
-            />
-
-            <h2 className="text-xl font-bold mb-2">
-              {selected.name}
-            </h2>
-
-            <p className="text-gray-400">
-              {selected.desc}
-            </p>
-
-            {selected.size && (
-              <p className="text-gray-300 mt-2">
-                📏 Velicina: {selected.size} cm
-              </p>
-            )}
-
-            <button
-              onClick={() => setSelected(null)}
-              className="mt-6 w-full bg-white text-black py-2 rounded-lg hover:bg-gray-200 transition"
-            >
-              Zatvori
-            </button>
-          </div>
-        </div>
-      )}
+      
     </section>
   );
 }
