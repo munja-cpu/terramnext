@@ -24,7 +24,7 @@ export default function Header() {
           
             <Link href="/" className="flex items-center">
   <Image
-    src="/logoBeli.png"
+    src="/terramBeliLogo01.png"
     alt="Terram logo"
     width={200}
     height={50}
