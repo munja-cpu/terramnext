@@ -21,18 +21,18 @@ export default function Header() {
         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
           {/* LOGO */}
-          
-            <Link href="/" className="flex items-center">
-  <Image
-    src="/terramBeliLogo01.png"
-    alt="Terram logo"
-    width={200}
-    height={50}
-    className="h-8 w-auto object-contain"
-    priority
-  />
-</Link>
-          
+
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo-v1.png"
+              alt="Terram logo"
+              width={200}
+              height={50}
+              className="h-12 w-auto object-contain"
+              priority
+            />
+          </Link>
+
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex space-x-6">
