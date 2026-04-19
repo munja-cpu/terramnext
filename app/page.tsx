@@ -7,10 +7,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Products />
+      <Products showBadges/>
       <About />
       <Contact />
-      
     </main>
   );
 }

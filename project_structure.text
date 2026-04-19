@@ -1,0 +1,51 @@
+- .env.local
+- .gitignore
+- AGENTS.md
+- app
+  - api
+    - contact
+      - route.ts
+  - boje.txt
+  - components
+    - About.tsx
+    - Contact.tsx
+    - Footer.tsx
+    - Header.tsx
+    - Hero.tsx
+    - Products.tsx
+  - contact
+    - page.tsx
+  - favicon.ico
+  - globals.css
+  - layout.tsx
+  - odrzavanje
+    - page.tsx
+  - page.tsx
+  - products
+    - page.tsx
+    - [slug]
+      - page.tsx
+- CLAUDE.md
+- eslint.config.mjs
+- next-env.d.ts
+- next.config.ts
+- package-lock.json
+- package.json
+- postcss.config.mjs
+- public
+  - aboutUs.webp
+  - file.svg
+  - globe.svg
+  - hero.webp
+  - logo-v1.webp
+  - next.svg
+  - og-image.jpg
+  - proizvodi
+    - t1.webp
+    - t2.webp
+    - t3.jpg
+    - t4.webp
+  - vercel.svg
+  - window.svg
+- README.md
+- tsconfig.json
