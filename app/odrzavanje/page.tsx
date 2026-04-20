@@ -5,7 +5,7 @@ export default function Odrzavanje() {
 
         {/* HERO */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 mt-8">
             Održavanje terarijuma 🌿
           </h1>
 
