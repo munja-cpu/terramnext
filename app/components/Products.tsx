@@ -49,8 +49,8 @@ const products = [
 export default function Products({ showBadges }: { showBadges?: boolean }) {
 
   return (
-    <section className="py-20 px-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold mb-10 text-center">
+    <section className="py-10 px-6 max-w-6xl mx-auto ">
+      <h2 className="text-4xl md:text-6xl font-bold my-6 text-center">
         Naši terarijumi
       </h2>
 

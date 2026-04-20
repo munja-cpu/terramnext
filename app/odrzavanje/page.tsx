@@ -5,9 +5,9 @@ export default function Odrzavanje() {
 
         {/* HERO */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 mt-8">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 mt-8">
             Održavanje terarijuma 🌿
-          </h1>
+          </h2>
 
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Terarijumi su dizajnirani da budu dugotrajni i jednostavni za održavanje.

@@ -42,9 +42,9 @@ export default function Contact() {
   return (
     <section className="py-8 px-6 bg-black text-white min-h-screen mt-8">
       <section className="pt-8 pb-16 px-6 text-center text-white">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h2 className="text-4xl md:text-6xl font-bold mb-4">
           Kontakt
-        </h1>
+        </h2>
 
         <p className="text-gray-400 max-w-xl mx-auto">
           Imate pitanje, ideju ili želite terarijum po meri?
