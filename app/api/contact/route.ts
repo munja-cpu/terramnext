@@ -56,7 +56,7 @@ export async function POST(req: Request) {
 
       subject: "Hvala na poruci 🌿",
       text: `
-            Zdravo ${name},
+            Poštovani ${name},
 
             Hvala vam što ste nas kontaktirali.
             Vaša poruka je uspešno primljena i odgovorićemo vam u najkraćem roku. 
