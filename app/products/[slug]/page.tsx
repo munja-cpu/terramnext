@@ -41,6 +41,14 @@ const products: Product[] = [
     desc: "Obsidian Forest Mini je kompaktan, ali izrazito živ i detaljan mali ekosistem zatvoren u staklu. Bogatstvo fitonija u donjem delu odmah privlači pažnju — njihovi crveni i zeleni listovi sa izraženim šarama unose snažan kontrast i dinamiku. Pozadina je prekrivena mahovinom koja formira zeleni zid i daje osećaj dubine, kao da se scena nastavlja unazad. Kroz terarijum se provlače tanke, prirodno zakrivljene grane koje vode pogled kroz celu kompoziciju. U osnovi, kombinacija kamenčića, zemlje i biljaka stvara slojevit, prirodan prizor. Ceo terarijum deluje sveže, razigrano i puno života — kao mali komad šume koji uvek izgleda drugačije iz svakog ugla. 🌿",
     size: "30x20x20",
   },
+  {
+    id: 5,
+    name: "Hexa Grove",
+    slug: "hexa-grove",
+    image: "/proizvodi/05.webp",
+    desc: "Hexa Grove je ručno pravljeni terarijum koji spaja moderan geometrijski dizajn sa prirodnim elementima tropske šume. U njegovoj kompoziciji korišćene su pažljivo birane biljke, prirodno drvo i karakteristični Dragon Stone kamen koji daje izgled malog planinskog pejzaža unutar stakla. Visoka heksagonalna forma daje dubinu celom ekosistemu i čini da svaki detalj dođe do izražaja. Minimalistički spolja, a bogat prirodom iznutra, Hexa Grove unosi mir i jedinstvenu atmosferu u svaki prostor.🌿",
+    size: "/",
+  },
 ];
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
