@@ -40,7 +40,7 @@ export default function Odrzavanje() {
             </p>
             <ul className="text-gray-400 space-y-2">
               <li>• Idealno mesto je pored prozora</li>
-              <li>• Ne postavljajte terarijum na sunce</li>
+              <li>• <span className="text-red-400">Ne postavljajte terarijum na sunce</span></li>
               <li>• Difuzno svetlo je najbolje</li>
             </ul>
           </div>
@@ -72,7 +72,44 @@ export default function Odrzavanje() {
           </div>
 
         </div>
+        {/* OTVARANJE TERARIJUMA */}
+<div className="mt-24">
+  <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12">
 
+    <div className="grid md:grid-cols-2 gap-12 items-center">
+
+      {/* TEKST */}
+      <div>
+
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+          Otvaranje terarijuma
+        </h2>
+
+        <p className="text-gray-400 text-lg mb-6">
+          Svaki terarijum dolazi sa gumenim vakumom koji omogućava
+          jednostavno i sigurno otvaranje bez
+          oštećenja stakla.
+        </p>
+
+        <ul className="space-y-3 text-gray-300">
+          <li>• Jednostavno korišćenje</li>
+          <li>• Bez tragova na staklu</li>
+          <li>• Sigurno otvaranje</li>
+        </ul>
+      </div>
+
+      {/* SLIKA */}
+      <div className="relative">
+        <img
+          src="/odrzavanje/otvaranjeTerarijuma.webp"
+          alt="Otvaranje terarijuma"
+          className="rounded-2xl border border-white/10 shadow-2xl"
+        />
+      </div>
+
+    </div>
+  </div>
+</div>
         {/* BONUS SEKCIJA */}
         <div className="mt-20 text-center">
           <h2 className="text-3xl font-semibold mb-6">
@@ -86,23 +123,23 @@ export default function Odrzavanje() {
           </p>
         </div>
         <div className="mt-20">
-  <h2 className="text-3xl font-semibold mb-6 text-center">
-    Kako pravimo naše terarijume 🌿
-  </h2>
+          <h2 className="text-3xl font-semibold mb-6 text-center">
+            Kako pravimo naše terarijume 🌿
+          </h2>
 
-  <p className="text-gray-400 max-w-3xl mx-auto text-center">
-    Svaki naš terarijum nije samo dekoracija — već mali, pažljivo balansiran ekosistem.
+          <p className="text-gray-400 max-w-3xl mx-auto text-center">
+            Svaki naš terarijum nije samo dekoracija — već mali, pažljivo balansiran ekosistem.
 
-Proces izrade započinjemo slojevitim postavljanjem podloge koja omogućava pravilnu cirkulaciju vode i dugotrajnost bez čestog održavanja. Kombinujemo prirodne materijale poput zemlje, peska i kore drveta kako bismo obezbedili stabilno i zdravo okruženje za biljke.
+            Proces izrade započinjemo slojevitim postavljanjem podloge koja omogućava pravilnu cirkulaciju vode i dugotrajnost bez čestog održavanja. Kombinujemo prirodne materijale poput zemlje, peska i kore drveta kako bismo obezbedili stabilno i zdravo okruženje za biljke.
 
-Dodajemo aktivni ugalj koji filtrira vodu i sprečava razvoj neprijatnih mirisa, dok suva mahovina pomaže u zadržavanju optimalne vlage. U pojedinim terarijumima koristimo i specijalizovane podloge poput aqua soil-a, koje dodatno doprinose stabilnosti i rastu biljaka.
+            Dodajemo aktivni ugalj koji filtrira vodu i sprečava razvoj neprijatnih mirisa, dok suva mahovina pomaže u zadržavanju optimalne vlage. U pojedinim terarijumima koristimo i specijalizovane podloge poput aqua soil-a, koje dodatno doprinose stabilnosti i rastu biljaka.
 
-Kako bi ekosistem bio što prirodniji i dugotrajniji, u zatvorenim terarijumima često uvodimo i korisne mikroorganizme poput izopoda. Oni pomažu u aeraciji zemlje, razgradnji organskog materijala i održavaju unutrašnju ravnotežu bez potrebe za čestim intervencijama.
+            Kako bi ekosistem bio što prirodniji i dugotrajniji, u zatvorenim terarijumima često uvodimo i korisne mikroorganizme poput izopoda. Oni pomažu u aeraciji zemlje, razgradnji organskog materijala i održavaju unutrašnju ravnotežu bez potrebe za čestim intervencijama.
 
-Zahvaljujući ovom pažljivo osmišljenom procesu, naši terarijumi ostaju zdravi, stabilni i laki za održavanje — pružajući vam dugotrajan komadić prirode u vašem prostoru.
+            Zahvaljujući ovom pažljivo osmišljenom procesu, naši terarijumi ostaju zdravi, stabilni i laki za održavanje — pružajući vam dugotrajan komadić prirode u vašem prostoru.
 
-  </p>
-</div>
+          </p>
+        </div>
         {/* CTA */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold mb-4">
@@ -119,6 +156,6 @@ Zahvaljujući ovom pažljivo osmišljenom procesu, naši terarijumi ostaju zdrav
 
       </div>
     </section>
-    
+
   );
 }
