@@ -49,6 +49,22 @@ const products: Product[] = [
     desc: "Hexa Grove je ručno pravljeni terarijum koji spaja moderan geometrijski dizajn sa prirodnim elementima tropske šume. U njegovoj kompoziciji korišćene su pažljivo birane biljke, prirodno drvo i karakteristični Dragon Stone kamen koji daje izgled malog planinskog pejzaža unutar stakla. Visoka heksagonalna forma daje dubinu celom ekosistemu i čini da svaki detalj dođe do izražaja. Minimalistički spolja, a bogat prirodom iznutra, Hexa Grove unosi mir i jedinstvenu atmosferu u svaki prostor.🌿",
     size: "/",
   },
+  {
+    id: 6,
+    name: "Obsidian Forest Woodland Spire",
+    slug: "obsidian-forest-woodland-spire",
+    image: "/proizvodi/06.webp",
+    desc: "Obsidian Forest: Woodland Spire predstavlja spoj moderne geometrije i prirodnog rainforest ambijenta. Vertikalni moss zid, prirodne grane i pažljivo odabrane tropske biljke stvaraju osećaj male šume koja se uzdiže kroz staklenu formu. Dizajniran kao elegantan statement komad, ovaj terarijum unosi dubinu, prirodu i mir u svaki enterijer.🌿",
+    size: "30x20x20",
+  },
+  {
+    id: 7,
+    name: "Obsidian Forest Moss Peak",
+    slug: "obsidian-forest-moss-peak",
+    image: "/proizvodi/07.webp",
+    desc: "Obsidian Forest: Moss Peak inspirisan je izgledom obraslog planinskog vrha prekrivenog mahovinom i tropskim detaljima. Vertikalna kompozicija, prirodne grane i pažljivo uklopljene fitonije stvaraju dubinu i osećaj miniature rainforest pejzaža unutar elegantnog geometrijskog stakla. Ručno izrađen kao spoj prirode i modernog dizajna, ovaj terarijum donosi smirujuću atmosferu u svaki prostor.🌿",
+    size: "40x30x30",
+  },
 ];
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
