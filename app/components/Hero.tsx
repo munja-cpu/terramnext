@@ -3,50 +3,57 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center text-white">
+    <section className="relative h-screen flex items-center text-white">
 
-      {/* BACKGROUND IMAGE */}
-      <Image
-        src="/hero.webp"
-        alt="Terrarium"
-        fill
-        priority
-        className="object-cover object-[70%_center] md:object-center"
-      />
+  <Image
+    src="/hero01.webp"
+    alt="Terrarium"
+    fill
+    priority
+    className="
+      object-cover
+      object-center
+      scale-90
+      md:scale-100
+    "
+  />
 
-      {/* DARK OVERLAY */}
-      <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/30 to-transparent" />
+  <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/30 to-transparent" />
 
-      {/* CONTENT */}
-      <div className="relative text-center md:text-left px-6 max-w-3xl">
-        
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 fade-up">
-          Komadić prirode u vašem prostoru
-        </h1>
+  <div className="relative w-full px-6  lg:px-24">
+    
+    <div className="max-w-3xl text-center md:text-left">
 
-        <p className="text-gray-300 text-lg md:text-xl mb-8">
-          Ručno izrađeni terarijumi koji unose mir,
-          estetiku i prirodu u svaki enterijer.
-        </p>
+      <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 fade-up">
+        Komadić prirode u vašem prostoru
+      </h1>
 
-        <div className="flex justify-center gap-4 flex-wrap">
-          
-          <Link
-            href="/products"
-            className="bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition"
-          >
-            Pogledaj proizvode
-          </Link>
+      <p className="text-gray-300 text-lg md:text-xl mb-8">
+        Ručno izrađeni terarijumi koji unose mir,
+        estetiku i prirodu u svaki enterijer.
+      </p>
 
-          <Link
-            href="/contact"
-            className="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
-          >
-            Kontakt
-          </Link>
+      <div className="flex justify-center md:justify-start gap-4 flex-wrap">
 
-        </div>
+        <Link
+          href="/products"
+          className="bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition"
+        >
+          Pogledaj proizvode
+        </Link>
+
+        <Link
+          href="/contact"
+          className="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
+        >
+          Kontakt
+        </Link>
+
       </div>
-    </section>
+
+    </div>
+
+  </div>
+</section>
   );
 }
