@@ -112,7 +112,7 @@ export default function Products({ showBadges }: { showBadges?: boolean }) {
               )}
             </div>
 
-            <h3 className="mt-4 text-lg font-semibold">
+            <h3 className="mt-4 text-lg font-semibold text-[#b38b59]">
               {item.name}
             </h3>
           </Link>
