@@ -68,6 +68,14 @@ const products = [
     desc: "Ručno izrađen terarijum sa dominantnim moss zidom i tropskim biljkama koje stvaraju izgled minijaturnog rainforest vrha u modernoj geometrijskoj formi. Idealno kao upečatljiv prirodni detalj enterijera.🌿",
     size: "40x30x30",
   },
+  {
+    id: 8,
+    name: "Obsidian Forest Root",
+    slug: "obsidian-forest-root",
+    image: "/proizvodi/08.webp",
+    desc: "Ručno pravljen terarijum sa moss zidom kroz koji se grane elegantno uvijaju i stvaraju osećaj male skrivene šume. Pažljivo uklopljene fitonije i dekorativno zelenilo donose kontrast i živost, dok detalji od Dragon Stone kamenčića upotpunjuju prirodan izgled. Moderan geometrijski dizajn čini ga jedinstvenim detaljem za svaki prostor.🌿",
+    size: "30x20x20",
+  },
 ];
 
 export default function Products({ showBadges }: { showBadges?: boolean }) {
