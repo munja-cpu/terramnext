@@ -76,6 +76,14 @@ const products = [
     desc: "Ručno pravljen terarijum sa moss zidom kroz koji se grane elegantno uvijaju i stvaraju osećaj male skrivene šume. Pažljivo uklopljene fitonije i dekorativno zelenilo donose kontrast i živost, dok detalji od Dragon Stone kamenčića upotpunjuju prirodan izgled. Moderan geometrijski dizajn čini ga jedinstvenim detaljem za svaki prostor.🌿",
     size: "30x20x20",
   },
+  {
+    id: 9,
+    name: "Obsidian Forest Roo9t",
+    slug: "obsidian-forest-root9",
+    image: "/proizvodi/08.webp",
+    desc: "Ručno pravljen terarijum sa moss zidom kroz koji se grane elegantno uvijaju i stvaraju osećaj male skrivene šume. Pažljivo uklopljene fitonije i dekorativno zelenilo donose kontrast i živost, dok detalji od Dragon Stone kamenčića upotpunjuju prirodan izgled. Moderan geometrijski dizajn čini ga jedinstvenim detaljem za svaki prostor.🌿",
+    size: "30x20x20",
+  },
 ];
 
 export default function Products({ showBadges }: { showBadges?: boolean }) {

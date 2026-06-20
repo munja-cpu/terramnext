@@ -22,13 +22,12 @@ export default function Odrzavanje() {
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <h2 className="text-2xl font-semibold mb-3">💧 Zalivanje</h2>
             <p className="text-gray-400 mb-3">
-              Terarijumi zahtevaju minimalno zalivanje. U većini slučajeva dovoljno je
-              zaliti ih jednom u 2 do 4 nedelje.
+              Terarijumi zahtevaju minimalno zalivanje. <span className="highlight">Uvek je bolje zaliti premalo nego previse.</span>
             </p>
             <ul className="text-gray-400 space-y-2">
               <li>• Koristite malu količinu vode</li>
               <li>• Izbegavajte zadržavanje vode na dnu</li>
-              <li>• Ako se stvara kondenzacija — ne zalivajte</li>
+              <li>• Ako se stvara kondenzacija — ne zalivajte. Po potrebi ostavite vratanca blago otvorena nekoliko sati kako bi višak vlage ispario.</li>
             </ul>
           </div>
 
@@ -36,12 +35,13 @@ export default function Odrzavanje() {
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <h2 className="text-2xl font-semibold mb-3">☀️ Svetlost</h2>
             <p className="text-gray-400 mb-3">
-              Terarijumi vole svetlost, ali ne direktno sunce.
+              <span className="text-red-400">Ne postavljajte terarijum na sunce, sunčevi zraci ne smeju prelaziti preko terarijuma ni u jednom delu dana.</span>
             </p>
             <ul className="text-gray-400 space-y-2">
               <li>• Idealno mesto je pored prozora</li>
-              <li>• <span className="text-red-400">Ne postavljajte terarijum na sunce</span></li>
+              <li>• Terarijumi vole svetlost, ali ne direktno sunce.</li>
               <li>• Difuzno svetlo je najbolje</li>
+              <li>• Direktno sunce može za vrlo kratko vreme pregrejati unutrašnjost i oštetiti ili uništiti biljke.</li>
             </ul>
           </div>
 
@@ -52,7 +52,7 @@ export default function Odrzavanje() {
               Terarijumi najbolje uspevaju na sobnoj temperaturi.
             </p>
             <ul className="text-gray-400 space-y-2">
-              <li>• Idealno: 18–25°C</li>
+              <li>• Idealno: <span className="highlight">18–25°C</span></li>
               <li>• Izbegavajte radijatore i klimu</li>
               <li>• Bez naglih promena temperature</li>
             </ul>
@@ -65,7 +65,7 @@ export default function Odrzavanje() {
               Minimalno održavanje je dovoljno da terarijum izgleda savršeno.
             </p>
             <ul className="text-gray-400 space-y-2">
-              <li>• Uklonite suve listove</li>
+              <li>• Uklonite suve ili oštećene listove</li>
               <li>• Povremeno skratite biljke</li>
               <li>• Očistite staklo ako je potrebno</li>
             </ul>
@@ -108,6 +108,38 @@ export default function Odrzavanje() {
       </div>
 
     </div>
+  </div>
+</div>
+
+    {/* NAPOMENA */}
+<div className="mt-8 rounded-2xl border border-zinc-800 bg-zinc-950/60 p-6">
+  <div className="flex items-center gap-3 mb-4">
+    <span className="text-2xl">⚠️</span>
+    <h3 className="text-2xl font-serif font-semibold text-white">
+      Važno
+    </h3>
+  </div>
+
+  <p className="text-zinc-300 leading-relaxed">
+    Terarijum je <span className="text-white font-medium">živi ekosistem</span>.
+    Kao i svaka biljka, zahteva osnovnu negu i odgovarajuće uslove.
+  </p>
+
+  <p className="mt-3 text-zinc-300 leading-relaxed">
+    Najčešći uzroci problema su{" "}
+    <span className="font-medium text-red-400">
+      prekomerno zalivanje
+    </span>{" "}
+    i{" "}
+    <span className="font-medium text-red-400">
+      izlaganje direktnom sunčevom svetlu
+    </span>.
+  </p>
+
+  <div className="mt-4 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
+    <p className="text-amber-300 text-sm font-medium">
+      Biljke su živa bića i svaki terarijum je jedinstven. Biljke u terarijumu su živa bića i tokom vremena će rasti i menjati se. Povremeno opadanje starijih listova ili manje promene u izgledu biljaka predstavljaju prirodan deo njihovog razvoja.
+    </p>
   </div>
 </div>
         {/* BONUS SEKCIJA */}

@@ -45,3 +45,13 @@ h1, h2, h3 {
 .fade-up {
   animation: fadeUp 1s ease-out forwards;
 }
+
+.highlight{
+  color: #88a52e;
+}
+
+@layer components {
+  .highlight {
+    @apply text-green-500 font-semibold;
+  }
+}
