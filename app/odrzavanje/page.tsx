@@ -72,18 +72,18 @@ export default function Odrzavanje() {
           </div>
 
           {/* IZOPODI */}
-          <div className="rounded-3xl border border-white/10 bg-black/40 p-8 backdrop-blur-sm">
-  <h3 className="mb-4 flex items-center gap-3 text-4xl font-serif font-semibold text-white">
-    <span className="text-3xl">🪲</span>
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
+  <h3 className="text-2xl font-semibold mb-3">
+    <span className="text-xl">🪲</span>
     Izopodi
   </h3>
 
-  <p className="mb-6 text-lg leading-relaxed text-zinc-300">
+  <p className="text-gray-400 mb-3">
     U terarijumu se nalaze <span className="font-medium text-white">Dwarf White izopodi</span> –
     mali pomagači koji održavaju prirodnu ravnotežu ekosistema.
   </p>
 
-  <ul className="space-y-4 text-lg text-zinc-300">
+  <ul className="text-gray-400 space-y-2">
     <li>• Pomažu u razgradnji organskog materijala.</li>
     <li>• Doprinose zdravijem i stabilnijem okruženju za biljke.</li>
     <li>• Potpuno su bezopasni za ljude i biljke.</li>
