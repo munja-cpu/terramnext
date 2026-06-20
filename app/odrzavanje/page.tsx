@@ -71,6 +71,32 @@ export default function Odrzavanje() {
             </ul>
           </div>
 
+          {/* IZOPODI */}
+          <div className="rounded-3xl border border-white/10 bg-black/40 p-8 backdrop-blur-sm">
+  <h3 className="mb-4 flex items-center gap-3 text-4xl font-serif font-semibold text-white">
+    <span className="text-3xl">🪲</span>
+    Izopodi
+  </h3>
+
+  <p className="mb-6 text-lg leading-relaxed text-zinc-300">
+    U terarijumu se nalaze <span className="font-medium text-white">Dwarf White izopodi</span> –
+    mali pomagači koji održavaju prirodnu ravnotežu ekosistema.
+  </p>
+
+  <ul className="space-y-4 text-lg text-zinc-300">
+    <li>• Pomažu u razgradnji organskog materijala.</li>
+    <li>• Doprinose zdravijem i stabilnijem okruženju za biljke.</li>
+    <li>• Potpuno su bezopasni za ljude i biljke.</li>
+    <li>• Većinu vremena provode skriveni u supstratu.</li>
+  </ul>
+
+  <div className="mt-8 rounded-2xl border border-lime-500/20 bg-lime-500/5 p-4">
+    <p className="text-sm leading-relaxed text-lime-300">
+      🌿 Ukoliko primetite sitne bele izopode u terarijumu, nema razloga za brigu –
+      oni su prirodan i koristan deo ekosistema.
+    </p>
+  </div>
+</div>
         </div>
         {/* OTVARANJE TERARIJUMA */}
 <div className="mt-24">
