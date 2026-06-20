@@ -1,8 +1,9 @@
 import { defineField, defineType } from "sanity";
 
+
 export const productType = defineType({
   name: "product",
-  title: "Products",
+  title: "🌿 Terarijumi",
   type: "document",
   fields: [
     defineField({
@@ -12,15 +13,7 @@ export const productType = defineType({
       validation: (Rule) => Rule.required(),
     }),
 
-    defineField({
-      name: "slug",
-      title: "Slug",
-      type: "slug",
-      options: {
-        source: "name",
-      },
-      validation: (Rule) => Rule.required(),
-    }),
+    
 
     defineField({
       name: "description",
@@ -44,9 +37,33 @@ export const productType = defineType({
     }),
 
     defineField({
+  name: "gallery",
+  title: "Galerija",
+  type: "array",
+  of: [
+    {
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+  ],
+}),
+
+    defineField({
       name: "collection",
       title: "Kolekcija",
       type: "string",
+    }),
+
+    defineField({
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "name",
+      },
+      validation: (Rule) => Rule.required(),
     }),
 
     defineField({
@@ -56,4 +73,11 @@ export const productType = defineType({
       initialValue: false,
     }),
   ],
+
+  preview: {
+    select: {
+      title: "name",
+      media: "image",
+     },
+  },
 });
