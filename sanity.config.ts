@@ -14,6 +14,8 @@ import {schema} from './sanity/schemaTypes'
 import {structure} from './sanity/structure'
 
 export default defineConfig({
+  title: 'Terram CMS',
+
   basePath: '/studio',
   projectId,
   dataset,

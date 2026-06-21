@@ -13,7 +13,7 @@ export const productType = defineType({
       validation: (Rule) => Rule.required(),
     }),
 
-    
+
 
     defineField({
       name: "description",
