@@ -1,5 +1,7 @@
 
 // SANITY
+
+export const revalidate = 60;
 import { notFound } from "next/navigation";
 
 import { client } from "@/sanity/lib/client";
@@ -47,6 +49,7 @@ export default async function ProductPage({
   `,
     { slug }
   );
+
 
   if (!product) {
     notFound();
