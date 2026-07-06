@@ -1,11 +1,13 @@
 import { client } from "@/sanity/lib/client";
 
-export default async function TestPage() {
-  const products = await client.fetch(`*[_type == "product"]`);
+export const dynamic = "force-dynamic";
 
-  return (
-    <pre>
-      {JSON.stringify(products, null, 2)}
-    </pre>
-  );
+export default async function TestPage() {
+  const products = await client.fetch(`*[_type == "product"]{
+    name,
+    slug,
+    _createdAt
+  }`);
+
+  return <pre>{JSON.stringify(products, null, 2)}</pre>;
 }
