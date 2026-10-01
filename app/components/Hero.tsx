@@ -13,7 +13,7 @@ export default function Hero() {
     className="
       object-cover
       object-center
-      scale-90
+      scale-100
       md:scale-100
     "
   />
