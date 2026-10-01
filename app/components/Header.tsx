@@ -22,15 +22,15 @@ export default function Header() {
 
           {/* LOGO */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/logo-v1.webp"
-              alt="Terram logo"
-              width={200}
-              height={50}
-              className="h-12 w-auto object-contain"
-              priority
-            />
-          </Link>
+  <Image
+    src="/logooo.png"
+    alt="Terram logo"
+    width={240}
+    height={60}
+    className="h-18 w-auto object-contain"
+    priority
+  />
+</Link>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex space-x-6">
